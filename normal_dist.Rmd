@@ -1,0 +1,21 @@
+---
+title: "Normal Distributions"
+output: 
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+
+```{r }
+x<-rnorm(100)
+hist(x)
+```
+
+
